@@ -1,26 +1,18 @@
 import React from 'react';
-import {
-  Route,
-  BrowserRouter,
-  NavLink } from 'react-router-dom';
-import Cats from './Cats';
-import Dogs from './Dogs';
-import Computers from './Computers';
+import { NavLink } from 'react-router-dom';
 
-const Navigation = () => (
-  <BrowserRouter>
+
+
+const Navigation = () => {
+  return(
     <div className="main-nav">
       <ul>
-        <li><NavLink to ='/cats'>Cats</NavLink></li>
-        <li><NavLink to='/dogs'>Dogs</NavLink></li>
-        <li><NavLink to='/computers'>Computers</NavLink></li>
+        <li><NavLink to ='/search/space'>Space</NavLink></li>
+        <li><NavLink to='/search/mountain'>Mountain</NavLink></li>
+        <li><NavLink to='/search/matrix'>Matrix</NavLink></li>
       </ul>
-
-      <Route path='/cats' component={Cats} />
-      <Route path='/dogs' component={Dogs} />
-      <Route path='/computers' component={Computers} />
     </div>
-  </BrowserRouter>
-);
+  );
+}
 
 export default Navigation;
