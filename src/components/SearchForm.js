@@ -3,14 +3,13 @@ import { withRouter } from "react-router-dom";
 
 class SearchForm extends Component   {
 
-
+// get input text and add to url
     searchHandler = (e) => {
       e.preventDefault ();
       let newsearch = '/search/' + this.search.value;
-
       this.props.history.push(newsearch);
     }
-
+// return search form with handling event
   render() {
     return (
       <form className="search-form" onSubmit={this.searchHandler}>

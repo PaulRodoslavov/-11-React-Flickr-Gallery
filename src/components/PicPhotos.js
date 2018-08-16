@@ -1,6 +1,7 @@
 import React from 'react';
 import Photo from './Photo';
 
+// gets from JSON photos and add to ul with properties
 const PicPhotos = props => {
   const results = props.pictures;
   let picked = results.map(data =>

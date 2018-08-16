@@ -3,7 +3,7 @@ import SearchForm from './SearchForm';
 import Navigation from './Navigation';
 
 
-//returns header elements of searchbox and navigation
+//returns header with elements of searchbox and navigation
 class Header extends React.Component {
     render() {
       return(

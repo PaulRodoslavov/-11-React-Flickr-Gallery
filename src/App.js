@@ -17,12 +17,12 @@ render() {
   return (
   <BrowserRouter forceRefresh={true}>
     <div className="container">
-    <Route path ="/" component={Header} />
-    <Switch>
-      <Route path ="/search/:tag" render={ props => <ContainerPhoto tag={ props.match.params.tag }/> } />
-      <Route exact path ="/" render={ props => <ContainerPhoto tag='Ukraine Odessa'/> } />
-      <Route component={NotFound}/>
-    </Switch>
+      <Route path ="/" component={Header} />
+      <Switch>
+        <Route path ="/search/:tag" render={ props => <ContainerPhoto tag={ props.match.params.tag }/> } />
+        <Route exact path ="/" render={ props => <ContainerPhoto tag='Ukraine Odessa'/> } />
+        <Route component={NotFound}/>
+      </Switch>
     </div>
 
   </BrowserRouter>

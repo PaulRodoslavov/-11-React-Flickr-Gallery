@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: #3f4850;
+  font-family: 'Roboto', sans-serif;
+  background: #66cc99;
+  color: #fff;
 }
 h2 {
   font-size: 2em;
@@ -21,12 +22,15 @@ a {
   margin: 0 auto 32px;
 }
 .search-form button {
-  outline: none;
-  background-color: #438bbd;
-  border: none;
-  padding: 0px 15px;
+
   border-radius: 0 0.35em 0.35em 0;
-  cursor: pointer;
+  background-color: #243B4A ;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+    height: 50px;
+    outline:none;
 }
 input {
   font-size: 1em;
@@ -44,7 +48,7 @@ input {
 }
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background: #243B4A;
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -52,7 +56,7 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #2F4745;
 }
 .photo-container ul {
   display: flex;
@@ -66,6 +70,7 @@ input {
   height: 165px;
   overflow: hidden;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 .photo-container ul img {
   width: 100%;

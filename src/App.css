@@ -1,7 +1,4 @@
-body {
-  background: #66cc99;
-;
-}
+
 .App {
   text-align: center;
 }
@@ -29,7 +26,4 @@ body {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-.photo-container li {
-  border-radius: 10px;
 }

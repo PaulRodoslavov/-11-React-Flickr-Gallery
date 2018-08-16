@@ -1,5 +1,6 @@
 import React from 'react';
 
+// returns not found message
 const NotFound = () => {
 	return (
 	<div className="container">
@@ -8,7 +9,7 @@ const NotFound = () => {
 			<p>Error 404 Your search did not return any results. Please try again.</p>
 		</li>
 	</div>
-	)	
+	)
 }
 
 

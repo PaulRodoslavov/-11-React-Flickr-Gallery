@@ -1,5 +1,6 @@
 import React from 'react';
 
+// returns photo with url and alt
 const Photo = props => {
   return(
       <li>
